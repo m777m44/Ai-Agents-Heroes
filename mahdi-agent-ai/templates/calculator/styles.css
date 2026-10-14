@@ -1,0 +1,13 @@
+body { margin:0; min-height:100vh; display:grid; place-items:center; background: radial-gradient(900px 500px at 50% -10%, #223047, #0a0c11 70%); font-family: system-ui, sans-serif; }
+.calc { width: min(360px, 92vw); background: #121722; border: 1px solid #222b3b; border-radius: 26px; padding: 22px; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.display { text-align: right; padding: 14px 10px 20px; color: #e9edf5; min-height: 110px; }
+.expr { color: #7d8799; min-height: 22px; font-size: 16px; word-break: break-all; }
+.result { font-size: 48px; font-weight: 300; overflow: hidden; text-overflow: ellipsis; }
+.keys { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+button { height: 64px; border: 0; border-radius: 18px; background: #1c2331; color: #e9edf5; font-size: 22px; cursor: pointer; transition: transform .1s, filter .2s; }
+button:hover { filter: brightness(1.15); }
+button:active { transform: scale(.96); }
+button.fn { background: #2a3345; color: #d4a84b; }
+button.op { background: linear-gradient(135deg,#d4a84b,#b98a2e); color: #111; font-weight: 700; }
+button.eq { background: linear-gradient(135deg,#2dd4bf,#14b8a6); color: #05201c; font-weight: 700; }
+button.zero { grid-column: span 2; }

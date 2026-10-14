@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>My Tasks</h1>
+        <p id="stats"></p>
+      </header>
+      <form id="new-task">
+        <input id="title" placeholder="What needs to be done?" autocomplete="off" required />
+        <button type="submit">Add</button>
+      </form>
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="active">Active</button>
+        <button data-filter="done">Done</button>
+      </div>
+      <ul id="list"></ul>
+      <button id="clear" class="clear">Clear completed</button>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
