@@ -1,0 +1,22 @@
+# Raf3ly hardening — obfuscation only (no shrinking/optimizing, to stay 100% safe at runtime)
+-dontshrink
+-dontoptimize
+-dontpreverify
+-dontwarn **
+-dontusemixedcaseclassnames
+-repackageclasses 'o'
+-allowaccessmodification
+-verbose
+
+# entry points referenced from AndroidManifest.xml
+# only the constructors are needed by the framework; every member name stays obfuscated
+-keep class com.raf3ly.app.App { <init>(); }
+-keep class com.raf3ly.app.MainActivity { <init>(); }
+-keep class com.raf3ly.app.ViewerActivity { <init>(); }
+-keep class com.raf3ly.app.R { *; }
+# JNI: the symbol Java_com_raf3ly_app_N_verify must keep its exact name
+-keep class com.raf3ly.app.N { *; }
+
+# no line numbers / source file: stack traces and smali carry no code map
+-keepattributes Signature,InnerClasses,EnclosingMethod
+-renamesourcefileattribute Raf3ly

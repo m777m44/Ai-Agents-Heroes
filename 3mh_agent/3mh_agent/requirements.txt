@@ -1,0 +1,11 @@
+# ── Cloudflare Agents Telegram Bot ────────────────────────────────────────────
+# Python 3.9+ (يُنصح بـ 3.11)
+
+python-telegram-bot[job-queue]>=21.9,<23   # إطار عمل تليجرام (v21 و v22 مدعومان)
+aiohttp>=3.9,<4                            # اتصال WebSocket بخادم Cloudflare Playground
+beautifulsoup4>=4.12                       # استخراج النص من صفحات HTML
+python-dotenv>=1.0                         # قراءة ملف .env
+
+# اختيارية (تُستخدم إن وُجدت فقط):
+# ujson>=5.9            # تسريع JSON
+# orjson>=3.10          # تسريع JSON

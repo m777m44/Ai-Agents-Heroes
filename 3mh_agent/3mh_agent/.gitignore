@@ -1,0 +1,30 @@
+# الأسرار
+.env
+.env.*
+!.env.example
+
+# البيانات والتخزين
+data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+
+# بايثون
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# المحرّرات والأنظمة
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

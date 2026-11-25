@@ -1,0 +1,33 @@
+# 3MH TECHNOLOGIES | t.me/j49_c | t.me/bshshshkk | http://3mh.pages.dev
+services:
+  cf-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 3mh-agent:latest
+    container_name: 3mh-agent
+    env_file:
+      - .env
+    environment:
+      # مسارات داخل الحاوية (تُخزَّن في المجلّد الدائم)
+      DB_PATH: /app/data/bot.sqlite3
+      WORKSPACE_DIR: /app/data/workspace
+      LOG_FILE: /app/data/bot.log
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - mh3-data:/app/data
+    restart: unless-stopped
+    # لوضع Webhook فقط: افتح المنفذ التالي
+    # ports:
+    #   - "8443:8443"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # حدود اختيارية لصندوق تنفيذ الكود
+    mem_limit: 2g
+    pids_limit: 512
+
+volumes:
+  mh3-data:

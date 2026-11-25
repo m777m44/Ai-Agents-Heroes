@@ -1,0 +1,260 @@
+# Raf3ly i18n — Arabic source → English
+رفعلي	Raf3ly
+لينك مباشر في ثواني	Direct links in seconds
+الرئيسية	Home
+رفع	Upload
+محفوظاتي	My files
+الإعدادات	Settings
+أهلاً بيك 👋	Welcome 👋
+بدون حساب	No account
+ملف مرفوع	files uploaded
+إجمالي 	Total 
+تنزيل	Downloads
+مفضلة	Favorites
+اليوم	Today
+رفع ملفات	Upload files
+كل الأنواع	Any type
+رفع صور	Upload images
+صور فقط	Images only
+كاميرا	Camera
+صور فورية	Quick shot
+النشاط — آخر 7 أيام	Activity — last 7 days
+ ملف في الأسبوع	 files this week
+ذروة 	Peak 
+لسه مفيش نشاط — أول رفع هيظهر هنا	No activity yet — your first upload appears here
+آخر الملفات	Recent files
+الكل	All
+لسه مرفعتش حاجة — ابدأ من الاختصارات فوق	Nothing uploaded yet — start from the shortcuts above
+منصات الرفع	Upload platforms
+منصات الرفع (	Upload platforms (
+الحالي: 	Current: 
+مشاركة	Share
+نسخ	Copy
+ابحث بالاسم أو اللينك…	Search by name or link…
+ابحث عن منصة…	Search a platform…
+نسخ كل اللينكات (	Copy all links (
+مفيش ملفات هنا لسه	No files here yet
+مفيش نتائج	No results
+ابدا رفع جديد	Start a new upload
+⬆  ملفات	⬆  Files
+صور	Images
+اختار ملفات أو صور — تحديد متعدد مدعوم	Pick files or images — multi-select supported
+بيترفع على: 	Uploading to: 
+في الانتظار	Queued
+تم	Done
+السرعة	Speed
+الرفع الجاري	Uploading
+طابور الرفع	Upload queue
+تفريغ المكتمل	Clear finished
+الطابور فاضي — اختار ملفات وابدأ الرفع.	Queue is empty — pick files to start.
+الاستضافة عامة ومجهولة: أي حد عنده اللينك يفتح الملف. اتحول تلقائيًا لمنصة بديلة لو الرفع فشل.	Public anonymous hosting: anyone with the link can open the file. Falls back to another platform automatically.
+الاستضافات عامة ومجهولة: أي حد عنده اللينك يفتح الملف — متستعملوش لملفات حساسة.	Public anonymous hosting: anyone with the link can open the file — don't use it for sensitive files.
+المنصات	Platforms
+منصة مخصصة	Custom platform
+ضيف أي منصة رفع بتاعة الـ API بتاعتك (اسم + رابط + اسم الحقل).	Add any upload API of your own (name + URL + field name).
+اسم المنصة	Platform name
+اسم الحقل (file)	Field name (file)
+حفظ واستخدام	Save & use
+حذف	Delete
+خيارات الرفع	Upload options
+ضغط الصور قبل الرفع	Compress images before upload
+بيقلل حجم الصور وبيرفع أسرع (الجودة تقل شوية)	Smaller files and faster uploads (slightly lower quality)
+أصلي	Original
+ضغط عالي	High
+ضغط متوسط	Medium
+عدد الرفعات المتوازية	Parallel uploads
+ملف واحد	One file
+نسخ اللينك تلقائيًا	Auto-copy the link
+بعد كل رفع ناجح يتنسخ تلقائيًا	Copied after every successful upload
+تحويل تلقائي بين المنصات	Automatic platform fallback
+لو منصة فشلت يجرّب x0.at ثم pomf ثم uguu	Retries x0.at, then pomf, then uguu
+اهتزاز عند النجاح	Vibrate on success
+رد فعل لمسي بسيط	Subtle haptic feedback
+حفظ السجل	Keep history
+يحفظ الملفات في محفوظاتي	Saves uploads in My files
+النسخ الاحتياطي	Backup
+صدّر سجل اللينكات بصيغة JSON واستورده على أي جهاز.	Export your links as JSON and import them on any device.
+تصدير	Export
+استيراد	Import
+منطقة الخطر	Danger zone
+مسح كل محفوظاتي	Clear all my files
+مسح السجل	Clear history
+هيتشال كل السجل المحلي. الملفات على السيرفرات مش هتتأثر.	The local history will be erased. Files on the servers are untouched.
+امسح	Delete
+إلغاء	Cancel
+حذف من محفوظاتي	Remove from my files
+هيتشال من السجل المحلي بس. الملف نفسه بيفضل على السيرفر لحد ما ينتهي.\\n\\n	Removed from the local history only. The file stays on the server until it expires.\\n\\n
+هيتشالوا من السجل المحلي بس (الملفات نفسها بتبقى على السيرفر).	Removed from the local history only (the files stay on the server).
+ترتيب المحفوظات	Sort my files
+الأحدث أولًا	Newest first
+الأقدم أولًا	Oldest first
+الأكبر حجمًا	Largest first
+الأكثر تنزيلًا	Most downloaded
+المفضلة أولًا	Favorites first
+مفضلة ★	Favorites ★
+مستندات	Documents
+فيديو	Video
+ملفات	Files
+مختبرة ✓	Tested ✓
+دائم	Permanent
+طويل	Long
+متوسط	Medium
+مؤقت	Temporary
+لينك مباشر	Direct link
+صفحة تنزيل	Download page
+المنصة	Platform
+النوع	Type
+الحجم	Size
+اللينك	Link
+تاريخ الرفع	Uploaded at
+عدد التنزيلات	Downloads
+فتح في المتصفح	Open in browser
+حذف من السجل	Remove from history
+معاينة غير متاحة للنوع ده	Preview not available for this type
+التنزيل بيتم في مجلد Downloads/Raf3ly	Downloads go to Downloads/Raf3ly
+ببدأ التنزيل…	Starting download…
+تم التنزيل ✓	Downloaded ✓
+فشل التنزيل	Download failed
+تم التنزيل في Downloads/Raf3ly · 	Saved to Downloads/Raf3ly · 
+تم التنزيل: 	Saved: 
+لينك مباشر%	
+مشاركة اللينك	Share link
+تم نسخ اللينك ✓	Link copied ✓
+تم النسخ ✓	Copied ✓
+تم الرفع ✓	Uploaded ✓
+تم الرفع ✓ اتنسخ اللينك	Uploaded ✓ link copied
+اتنسخ النسخة الاحتياطية ✓	Backup copied ✓
+الحافظة مفيش فيها نسخة احتياطية	Clipboard has no backup
+اتضافت المنصة ✓	Platform added ✓
+اتشالت	Removed
+اتمسح ✓	Cleared ✓
+اتمسحوا ✓	Removed ✓
+مفيش تطبيق ملفات متاح	No file manager available
+مفيش تطبيق صور متاح	No gallery app available
+مفيش تطبيق كاميرا متاح	No camera app available
+مفيش متصفح متاح	No browser available
+مفيش تطبيق مشاركة	No share target
+مفيش منصة بالفلتر ده	No platform matches this filter
+الكاميرا المباشرة متاحة من أندرويد 10 — استخدم اختيار صور	Direct camera needs Android 10+ — use image picker
+اكتب اسم ورابط صحيح (https)	Enter a valid name and https URL
+الملف فاضي أو مش قابل للقراءة	The file is empty or unreadable
+مش قادر أقرأ الملف	Can't read the file
+مش قادر أكتب في مجلد التنزيلات	Can't write to Downloads
+فشل الرفع على كل المنصات	Upload failed on every platform
+المنصة المخصصة مش متظبططة	Custom platform is not configured
+المنصة المخصصة مش متظبط	Custom platform is not configured
+خطأ غير معروف	Unknown error
+رد فاضي من السيرفر	Empty response from server
+اتلغى	Cancelled
+ملغي	Cancelled
+تم إلغاء الرفع	Upload cancelled
+فشل	Failed
+تم ✓	Done ✓
+بانتظار	Queued
+تجهيز	Preparing
+تحضير	Preparing
+ضغط الصورة	Compressing
+المطوّر: 	Developer: 
+تطوير 	Built by 
+محمود عادل	Mahmoud Adel
+تيليجرام	Telegram
+يوتيوب	YouTube
+يلا نبدأ	Let's start
+أهلاً في 	Welcome to 
+الإصدار 	Version 
+ منصة رفع · تطوير 	 platforms · built by 
+مختبر	tested
+  ✓ مختبر	  ✓ tested
+ملف · 	file · 
+ذروة اليوم 	today's peak 
+  تيليجرام ↗	  Telegram ↗
+  يوتيوب ↗	  YouTube ↗
+تطوير 	Built by 
+حسب منصتك	Per your platform
+منصة مخصصة أضفتها بنفسك (API).	Your own custom upload API.
+بدون حد زمني — الأفضل للاحتفاظ بالملفات للأبد.	No expiry — best for keeping files forever.
+الأكثر استقرارًا — لينك مباشر يشتغل في أي مكان.	Most stable — a direct link that works anywhere.
+سريع للصور والملفات الصغيرة.	Fast for images and small files.
+سريع جدًا ورد فوري، لينك مباشر.	Very fast with instant response, direct link.
+من أقدم خدمات الرفع المجهولة — لينك مباشر.	One of the oldest anonymous hosts — direct link.
+نسخة من عائلة 0x0 — لينك مباشر بدون إعلانات.	A 0x0 family instance — direct link, no ads.
+الأفضل للملفات الكبيرة (فيديو/أرشيف).	Best for big files (video/archives).
+سريع جدًا، بيرجّع صفحة عرض.	Very fast, returns a viewer page.
+بينشئ مجلد (bin) بيتجمع فيه كل ملفاتك — اللينك صفحة تحميل.	Creates a bin that collects your files — the link is a download page.
+نسخة مؤقتة من catbox — 72 ساعة.	Temporary catbox — 72 hours.
+استضافة صور (JPG/PNG/GIF) — لينك مباشر وصفحة عرض.	Image host (JPG/PNG/GIF) — direct link and viewer page.
+مساحة كبيرة للملفات، بيرجّع صفحة تنزيل.	Lots of space, returns a download page.
+مؤقت — للمشاركة اللحظية.	Temporary — for instant sharing.
+مؤقت جدًا — بيتم استخراج اللينك المباشر من صفحته.	Very temporary — the direct link is extracted from its page.
+30 يوم+	30+ days
+30 يوم	30 days
+60 يوم	60 days
+10 أيام	10 days
+7 أيام	7 days
+6 أيام	6 days
+3 أيام	3 days
+3 ساعات	3 hours
+ساعة	1 hour
+~ حفظ واستخدام	Save & use
+~باقي 	in 
+~منذ 	
+~ دقيقة	 min ago
+~ ساعة	 hr ago
+~ يوم	 days ago
+~أكتر من ساعة	over an hour
+~ث	s
+~في الطابور	queued
+~ · بجهّز الملف	 · preparing file
+~ · اتلغى	 · cancelled
+~مرفوع على 	uploaded to 
+ملف	file
+~ملفات	files
+~تنزيل	download
+~محفوظاتي	my files
+~الاستضافة	hosting
+~منصة	platform
+~صورة	image
+~ضغط	compress
+~جاري	running
+~ناجح	successful
+~الملف	file
+~السجل	history
+~قناة	channel
+~ منصة رفع مجهولة (منهم دائمي)	 upload platforms (some permanent)
+~الافتراضي: 	Default: 
+~تحويل تلقائي لو المنصة فشلت	automatic failover if a platform fails
+~عدادات رفع وتنزيل + محفوظاتي + مفضلة	upload/download counters, My files and favourites
+~مشاركة من أي تطبيق + كاميرا مباشرة	share from any app + direct camera
+~تطوير: 	Developer: 
+~تيليجرام: t.me/	Telegram: t.me/
+~يوتيوب: youtube.com/@	YouTube: youtube.com/@
+~Editor True · محمود عادل	Mahmoud Adel · Editor True
+~شارك ملف من أي تطبيق تاني وابعته لـ رفعلي من قايمة المشاركة.	Share a file from any other app and send it to Raf3ly from the share sheet.
+~هيتشال من السجل المحلي بس. الملف نفسه بيفضل على السيرفر لحد ما ينتهي.	Removed from local history only. The file stays on the server until it expires.
+~اتنسخ ✓	Copied ✓
+~اتنسخ 	Copy 
+~حذف 	Delete 
+~اتضاف 	Added 
+~المضاف حاليًا: 	Currently added: 
+~المنصة المخصصة مش متظبطة	The custom platform is not configured
+~المنصة: 	Platform: 
+~رفع على 	Uploading to 
+~فشل التنزيل (HTTP 	Download failed (HTTP 
+~فشل: 	Failed: 
+~لينك ✓	Link ✓
+~ محدد	 selected
+~ من 	 from 
+~غير معروف	Unknown
+~ابدأ رفع جديد	Start a new upload
+~أمس	Yest.
+~س-	Q-
+~أخضر	Green
+~أزرق	Blue
+~برتقالي	Orange
+~بنفسجي	Purple
+~سماوي	Cyan
+~وردي	Pink
+
+~ ملف ✓	 file ✓
+~ ملف · 	 file · 
+~ ملف	 file
